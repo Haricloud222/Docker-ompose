@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"
+  redis :
+    image : redis:latest
+    ports :
+      - "6379:6379"
+
+        
