@@ -1,0 +1,18 @@
+apt update
+    2  apt install docker.io
+    3  docker --version
+    4  systemctl status docker
+    5  docker pull httpd
+   13  mkdir docker-compose
+   14  ls
+   15  cd docker-compose/
+   16  apt install docker-compose
+   17  pwd
+   18  vi docker-compose.yml
+   19  docker-compose --version
+   20  vi docker-compose.yml
+   21  docker-compose up
+   22  vi docker-compose.yml
+   23  docker-compose up
+   24  docker-compose build ...
+   
